@@ -1,6 +1,6 @@
 # uix-tailwind
 
-A starting point with UIX and Tailwind based on (reagent-tailwind)[https://github.com/philbaker/reagent-tailwind]
+A starting point with UIX and Tailwind based on [reagent-tailwind](https://github.com/philbaker/reagent-tailwind)
 
 ## Watch (dev)
 - Shadow: `npm run shadow:watch`
