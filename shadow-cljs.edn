@@ -1,0 +1,10 @@
+{:source-paths ["src/dev"
+                "src/main"
+                "src/test"]
+ :dependencies [[reagent "1.1.0"]
+                [com.pitch/uix.core "0.8.1"]
+                [com.pitch/uix.dom "0.8.1"]]
+ :dev-http {8080 "public"}
+ :builds {:app
+          {:target :browser
+           :modules {:app {:init-fn app.core/main}}}}}
